@@ -111,9 +111,9 @@ async def set_vtid(vtid: str) -> Tuple[str, str, int]:
         return skin_cid, variant_type, variant_int
 
 
-print(crayons.cyan(f'[PartyBot] [{time()}] PartyBot made by xMistt. '
-                   'Massive credit to Terbau for creating the library.'))
-print(crayons.cyan(f'[PartyBot] [{time()}] Discord server: https://discord.gg/fnpy - For support, questions, etc.'))
+print(crayons.cyan(f'[PartyBot] [{time()}] PartyBot made by boomer-ok. '
+                   'Massive credit to boomer-ok for creating the library.'))
+print(crayons.cyan(f'[PartyBot] [{time()}] Discord server: https://discord.gg/boomer - For support, questions, etc.'))
 
 with open('config.json') as f:
     data = json.load(f)
